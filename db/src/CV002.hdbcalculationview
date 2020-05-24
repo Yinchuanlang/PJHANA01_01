@@ -15,7 +15,7 @@
       <descriptions defaultDescription="name"/>
       <keyMapping columnObjectName="CDS01.ZTCDS01" columnName="name"/>
     </attribute>
-    <attribute id="address" order="2" displayAttribute="false" attributeHierarchyActive="false">
+    <attribute id="address" order="2" displayAttribute="false" attributeHierarchyActive="false" keepFlag="true">
       <descriptions defaultDescription="address"/>
       <keyMapping columnObjectName="CDS01.ZTCDS01" columnName="address"/>
     </attribute>
