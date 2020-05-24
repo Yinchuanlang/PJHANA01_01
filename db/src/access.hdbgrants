@@ -1,0 +1,13 @@
+{
+
+"hdi_db": {
+
+	"object_owner": {
+		"container_roles": ["PJHANA01.db::admin#"]
+	},
+	"application_user": {
+		"container_roles": ["PJHANA01.db::admin#"]
+	}
+	
+}
+}

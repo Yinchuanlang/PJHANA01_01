@@ -1,0 +1,14 @@
+{
+  "hdi_db": {
+    "object_owner": {
+      "roles": [
+        " "
+      ]
+    },
+    "application_user": {
+      "roles": [
+        " "
+      ]
+    }
+  }
+}

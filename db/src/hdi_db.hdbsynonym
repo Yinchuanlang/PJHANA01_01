@@ -1,0 +1,16 @@
+{
+  "PJHANA02.db::CDS01.ZTCDS01": {
+    "target": {
+      "object": "PJHANA01.db::CDS01.ZTCDS01",
+      "schema": "SCHA",
+      "database": "YCL"
+    }
+  },
+  "PJHANA02.db::CDS01.ZTCDS012": {
+    "target": {
+      "object": "PJHANA01.db::CDS01.ZTCDS01",
+      "schema": "SCHA",
+      "database": "YCL"
+    }
+  }
+}

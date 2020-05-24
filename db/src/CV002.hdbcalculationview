@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="PJHANA02.db::CV002" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="CV002"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="PJHANA02.db::CDS01.ZTCDS01">
+    <resourceUri>PJHANA02.db::CDS01.ZTCDS01</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="PJHANA02.db::CDS01.ZTCDS01">
+  <attributes>
+    <attribute id="name" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="name"/>
+      <keyMapping columnObjectName="CDS01.ZTCDS01" columnName="name"/>
+    </attribute>
+    <attribute id="address" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="address"/>
+      <keyMapping columnObjectName="CDS01.ZTCDS01" columnName="address"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>
